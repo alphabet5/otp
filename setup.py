@@ -3,9 +3,12 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+with open("VERSION.txt", "r") as fh:
+    version = fh.read()
+
 setuptools.setup(
     name="otp",
-    version="0.0.1",
+    version=version,
     author="John Burt",
     author_email="johnburt.jab@gmail.com",
     description="CLI application to enter OTP from secrets stored in your keychain.",

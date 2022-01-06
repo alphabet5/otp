@@ -2,3 +2,4 @@
 build/*
 dist/*
 otp.egg-info/*
+.DS_Store
